@@ -45,4 +45,4 @@ jobs:
           push: true
           platforms: linux/amd64
           tags: |
-            ghcr.io/eugeniodevv/azul-zulu-pterodactyl:azul-zulu_${{ matrix.tag }}
+            ghcr.io/jsexp/azul-zulu-pterodactyl:azul-zulu_${{ matrix.tag }}

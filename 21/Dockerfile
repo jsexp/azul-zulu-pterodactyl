@@ -1,8 +1,8 @@
 FROM azul/zulu-openjdk-debian:21-latest
 
-LABEL author="eugeniodevv"
+LABEL author="jsexp"
 
-LABEL org.opencontainers.image.source="https://github.com/eugeniodevv/azul-zulu-pterodactyl"
+LABEL org.opencontainers.image.source="https://github.com/jsexp/azul-zulu-pterodactyl"
 LABEL org.opencontainers.image.licenses=WTFPL
 
 RUN apt update -y \
